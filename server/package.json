@@ -1,0 +1,22 @@
+{
+  "name": "hapi-app",
+  "version": "1.0.0",
+  "description": "this app is created with hapi and for using react",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js -e js,pug",
+    "build": "cd ../client/react-ssr-app && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amit mishra",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/inert": "^5.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
